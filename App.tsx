@@ -1,12 +1,14 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, View } from 'react-native';
-import Hello from './src/Hello';
+import Union from './src/Union';
+// import Hello from './src/Hello';
 
 export default function App() {
   return (
     <View style={styles.container}>
       <StatusBar style="auto" />
-      <Hello />
+      {/* <Hello /> */}
+      <Union />
     </View>
   );
 }
