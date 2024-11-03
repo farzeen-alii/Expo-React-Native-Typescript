@@ -1,6 +1,7 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, View } from 'react-native';
-import Union from './src/Union';
+import Enums from './src/Enums';
+// import Union from './src/Union';
 // import Hello from './src/Hello';
 
 export default function App() {
@@ -8,7 +9,8 @@ export default function App() {
     <View style={styles.container}>
       <StatusBar style="auto" />
       {/* <Hello /> */}
-      <Union />
+      {/* <Union /> */}
+      <Enums />
     </View>
   );
 }
