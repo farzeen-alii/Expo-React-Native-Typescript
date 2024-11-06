@@ -1,6 +1,7 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, View } from 'react-native';
-import Enums from './src/Enums';
+import PartialPickOmit from './src/PartialPickOmit';
+// import Enums from './src/Enums';
 // import Union from './src/Union';
 // import Hello from './src/Hello';
 
@@ -10,7 +11,8 @@ export default function App() {
       <StatusBar style="auto" />
       {/* <Hello /> */}
       {/* <Union /> */}
-      <Enums />
+      {/* <Enums /> */}
+      <PartialPickOmit />
     </View>
   );
 }
