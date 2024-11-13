@@ -11,6 +11,7 @@ const Home = () => {
     <View style={styles.container}>
       <Text style={styles.title}>Home</Text>
       <Button title='Go to Profile' onPress={navigateToProfile} />
+      <Button title='Go to Orders' onPress={() => router.push('orders')} />
     </View>
   )
 }
